@@ -46,6 +46,10 @@ function makeSound(key) {
             var kickbass = new Audio("sounds/kick-bass.mp3");
             kickbass.play();
             break;
+        case "g":
+            var kickbass = new Audio("sounds/ara-ara.mp3");
+            kickbass.play();
+            break;
 
         default:
             console.log("buttonInnerHTML");
